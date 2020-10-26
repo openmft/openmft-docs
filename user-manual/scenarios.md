@@ -22,7 +22,7 @@ om -rundemo retail
 
 Now you can see message activity with banking files flowing in and out
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 ## **6.2 Healthcare scenario** 
 
@@ -42,7 +42,7 @@ om -rundemo healthcare
 
 Now you can see message activity with banking files flowing in and out
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 ##  **6.3 Banking scenario** 
 
@@ -62,7 +62,7 @@ om -rundemo banking
 
 Now you can see message activity with banking files flowing in and out
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 ## **6.4 Logistics scenario** 
 
@@ -82,5 +82,5 @@ om -rundemo logistics
 
 Now you can see message activity with banking files flowing in and out
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
