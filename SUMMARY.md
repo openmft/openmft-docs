@@ -16,6 +16,7 @@
 * [2.4 Message Mapping](openmft-concepts/message-mapping.md)
 * [2.5 Workflow](openmft-concepts/2.5-workflow.md)
 * [2.6 User Communication Profiles](openmft-concepts/2.6-user-communication-profiles.md)
+* [2.7 Communication Rules](openmft-concepts/2.7-communication-rules.md)
 
 ## 3.0 Install <a id="install"></a>
 

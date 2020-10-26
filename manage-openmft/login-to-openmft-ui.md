@@ -13,9 +13,9 @@ There are are couple of ways in which an Admin User can change the password:
 
 ### 4.1.2.1 Click on the downward facing arrow on the top right corner to see options for Change Password:
 
-![Click on the downward facing arrow on top right corner to see options for Change Password](../.gitbook/assets/image%20%286%29.png)
+![Click on the downward facing arrow on top right corner to see options for Change Password](../.gitbook/assets/image%20%287%29.png)
 
-![Click on Change Password to change your password.](../.gitbook/assets/image%20%2810%29.png)
+![Click on Change Password to change your password.](../.gitbook/assets/image%20%2811%29.png)
 
 ### 4.1.2.2 Scroll down all the way to the bottom of the menu on the left to find Admin Users and click on change password icon:
 
@@ -23,7 +23,7 @@ There are are couple of ways in which an Admin User can change the password:
 
 Click on Change password icon on the right side of the screen in the Action column:
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 ![Enter the new password and confirm to update the password.](../.gitbook/assets/image%20%283%29.png)
 

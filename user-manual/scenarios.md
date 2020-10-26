@@ -42,7 +42,7 @@ om -rundemo healthcare
 
 Now you can see message activity with banking files flowing in and out
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 ##  **6.3 Banking scenario** 
 
@@ -62,7 +62,7 @@ om -rundemo banking
 
 Now you can see message activity with banking files flowing in and out
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 ## **6.4 Logistics scenario** 
 
