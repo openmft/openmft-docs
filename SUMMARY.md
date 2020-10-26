@@ -14,6 +14,7 @@
 * [2.2 Message Type](openmft-concepts/message-type.md)
 * [2.3 User](openmft-concepts/user.md)
 * [2.4 Message Mapping](openmft-concepts/message-mapping.md)
+* [2.5 Workflow](openmft-concepts/2.5-workflow.md)
 
 ## 3.0 Install <a id="install"></a>
 
