@@ -32,14 +32,13 @@
 * [4.4 Stop, Start or Restart middle-ware services](manage-openmft/stop-start-or-restart-middle-ware-services.md)
 * [4.5 Stop, Start or Restart Vault](manage-openmft/stop-start-or-restart-vault.md)
 
-## User Manual
+## 5.0 User Manual <a id="user-manual"></a>
 
 * [5.0 OpenMFT User Manual](user-manual/5.0-openmft-user-manual.md)
-* [6.0 Scenarios](user-manual/scenarios.md)
 
 ---
 
-* [Use Cases](use-cases.md)
+* [6.0 Scenarios](scenarios.md)
 
 ## Troubleshooting
 
