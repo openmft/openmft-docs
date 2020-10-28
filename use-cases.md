@@ -1,4 +1,4 @@
-# USE CASES
+# Use Cases
 
 Coming soon
 

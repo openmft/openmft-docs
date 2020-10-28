@@ -39,7 +39,7 @@
 
 ---
 
-* [USE CASES](use-cases.md)
+* [Use Cases](use-cases.md)
 
 ## Troubleshooting
 
