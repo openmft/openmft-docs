@@ -37,7 +37,9 @@
 * [5.0 OpenMFT User Manual](user-manual/5.0-openmft-user-manual.md)
 * [6.0 Scenarios](user-manual/scenarios.md)
 
-## Use Cases
+---
+
+* [USE CASES](use-cases.md)
 
 ## Troubleshooting
 
