@@ -20,7 +20,7 @@ This will install the respective HTTP adapter, sample users, and maps in SFG.  A
 om -rundemo retail
 ```
 
-Now you can see message activity with banking files flowing in and out
+Now you can see message activity with retail files flowing in and out
 
 ![](.gitbook/assets/image%20%284%29.png)
 
@@ -40,7 +40,7 @@ This will install the respective HTTP adapter, sample users, and maps in  SFG.  
 om -rundemo healthcare 
 ```
 
-Now you can see message activity with banking files flowing in and out
+Now you can see message activity with healthcare files flowing in and out
 
 ![](.gitbook/assets/image%20%288%29.png)
 
@@ -80,7 +80,7 @@ This will install the respective HTTP adapter, sample users, and maps in SFG.  A
 om -rundemo logistics 
 ```
 
-Now you can see message activity with banking files flowing in and out
+Now you can see message activity with logistics files flowing in and out
 
 ![](.gitbook/assets/image%20%282%29.png)
 
