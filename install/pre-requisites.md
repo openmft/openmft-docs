@@ -91,9 +91,10 @@ Update postgres settings to trust 127.0.0.1 and your listen address if accessing
 cd /var/lib/pgsql/12/data
 ```
 
-Update pg\_hba.conf with the below lines to trust the localhost or the corresponding IP:
+Update pg\_hba.conf in the "local all all peer" section with the below lines.\(Change the value from ident to trust\)
 
 ```text
+# IPv4 local connections:
 host    all             all             127.0.0.1/32            trust
 host    all             all             localhost               trust
 ```
