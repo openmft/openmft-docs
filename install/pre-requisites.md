@@ -45,6 +45,11 @@ Once Anaconda Python is installed and enabled in the shell, type the below comma
 pip install psycopg2-binary
 ```
 
+```text
+# In order to run the demos, you need pysftp, so install pysftp libary as well
+pip install pysftp
+```
+
 ## 3.1.3 PostgreSQL
 
 This URL should help you to get PostgreSQL server installed on Redhat:  [https://www.postgresql.org/download/linux/redhat/](https://www.postgresql.org/download/linux/redhat/).
