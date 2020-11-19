@@ -64,8 +64,6 @@ basepath=/apps # Example path, change to your base path
 FAVICON=resources/img/favicon.png
 LOGO=resources/img/openmft_logo.png
 COPYRIGHT="© 2020 https://docs.openmft.org"
-OPENMFT_SSL_CERT=certs/server.crt
-OPENMFT_SSL_KEY=certs/server.key
 
 [LOG]
 log_file=openmft_installation.log
@@ -86,7 +84,7 @@ SSLMODE = disable
 
 [SSL_CERTIFICATE]
 create_self_signed=yes
-hosts=127.0.0.1,dev.openmft.org
+hosts=127.0.0.1,dev.openmft.org #If any, will be added SANs in the self-signed cert.  This is applicable only if create_self_signed is yes
 cert_file=
 key_file=
 
@@ -123,7 +121,16 @@ VAULT_ADDR=http://localhost:8200
 chmod +x om
 ```
 
+## 3.2.5 Bring your own certificates in pem format
 
+```text
+# If you have your own certs, change the "SSL_CERTIFICATE" section in openmft.conf as show below:
+[SSL_CERTIFICATE]
+create_self_signed=no
+hosts=127.0.0.1,dev.openmft.org #If any, will be added SANs in the self-signed cert.  This is applicable only if create_self_signed is yes
+cert_file=/apps/certs/server.crt # Sample location and file
+key_file=/apps/certs/server.key #Sample location and file
+```
 
 
 
