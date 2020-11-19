@@ -88,7 +88,7 @@ hosts=127.0.0.1,dev.openmft.org #If any, will be added SANs in the self-signed c
 cert_file=
 key_file=
 
-[SFTPD_SERVICE]
+[SFTPD_SERVICE] # This creates an sftp server that listens on host/port mentioned below in OpenMFT
 LISTEN_ADDRESS=127.0.0.1:55022
 
 [SFG]
