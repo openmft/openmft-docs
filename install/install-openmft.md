@@ -63,3 +63,7 @@ If UI is being installed in its own cluster of servers outside of SFG, then ui o
 
 Please refer to the [Install Demo documentation](3.3-install-openmft-as-a-standalone-server.md#3-3-2-install-demo-use-cases) to install demo use cases by the industry. 
 
+## 3.4.3 Run Demo use cases
+
+Please refer to the [Run Demo documentation](3.3-install-openmft-as-a-standalone-server.md#3-3-3-run-demos) to run the demo use cases by the industry
+
