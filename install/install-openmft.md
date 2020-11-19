@@ -67,3 +67,7 @@ Please refer to the [Install Demo documentation](3.3-install-openmft-as-a-standa
 
 Please refer to the [Run Demo documentation](3.3-install-openmft-as-a-standalone-server.md#3-3-3-run-demos) to run the demo use cases by the industry
 
+## 3.4.4 Visualize the data flow
+
+Please refer to the [Visualize data flow documentation](3.3-install-openmft-as-a-standalone-server.md#3-3-4-visualize-the-data-flow-on-openmft-ui) to see the data flowing through Sterling into AMF and vice-versa.
+
