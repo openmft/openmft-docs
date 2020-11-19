@@ -31,6 +31,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
 Add python to PATH in ~/.bash\_profile as shown below and activate the updated profile:
 
 ```text
+# If the base path for example is /apps where anaconda is installed, 
 export PATH=/apps/anaconda3/bin:$PATH
 ```
 
@@ -38,7 +39,7 @@ export PATH=/apps/anaconda3/bin:$PATH
 source ~/.bash_profile
 ```
 
-Once Python is installed, type the below command line to install PostgreSQL related libraries
+Once Anaconda Python is installed and enabled in the shell, type the below command to install PostgreSQL related library:
 
 ```text
 pip install psycopg2-binary
