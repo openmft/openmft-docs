@@ -91,7 +91,7 @@ cert_file=
 key_file=
 
 [SFTPD_SERVICE]
-LISTEN_ADDRESS=127.0.0.1:50039
+LISTEN_ADDRESS=127.0.0.1:55022
 
 [SFG]
 USE_SFG=false # Change to true if you have SFG
