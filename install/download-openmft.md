@@ -111,7 +111,6 @@ INSTALL_AMFSERVICE = yes
 SFG_HOST=localhost
 SFTP_PORT=40039
 USECASE_HTTP_ADAPTER_PORT=40449
-SFTP_OUTBOUND_DEFAULT_KEY  = <SFG Key ID> # Use this property if you have existing key, otherwise, the installer will create one.
 
 [VAULT]
 VAULT_HOME=/apps/openmft/vault  # Change apps to your basepath
