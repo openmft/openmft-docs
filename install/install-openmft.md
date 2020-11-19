@@ -20,7 +20,7 @@ OpenMFT can be installed in the same server as SFG for development or testing pu
 # components to install, but dbschema & vault are one time tasks for the 
 # entire cluster if a multi-node cluster is being provisioned with 
 # ui, svc & sfg separately.
-./om -install [all,dbschema,vault,ui,svc,sfg]
+./om -install [dbschema,vault,certs,svc,ui,sfg]
 ```
 
 ### 3.3.1.1 All in one install \(Single node install mode\)
@@ -31,6 +31,11 @@ The below command is run with an "all" flag if one wants to run OpenMFT and all 
 
 ```text
 ./om -install all
+```
+
+```text
+# Optionally, one could also install in verbose mode
+./om -install all -verbose
 ```
 
 The **following tasks are done automatically** when "all" is used with -install:

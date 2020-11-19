@@ -22,6 +22,7 @@
 
 * [3.1 Pre-requisites](install/pre-requisites.md)
 * [3.2 Download & stage OpenMFT](install/download-openmft.md)
+* [3.3 Install OpenMFT as a standalone server](install/3.3-install-openmft-as-a-standalone-server.md)
 * [3.3 Install, Configure & Start OpenMFT and dependencies for SFG integration](install/install-openmft.md)
 
 ## 4.0 Manage OpenMFT <a id="manage-openmft"></a>
