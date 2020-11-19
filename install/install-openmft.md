@@ -1,13 +1,11 @@
-# 3.3 Install, Configure & Start OpenMFT and dependencies for SFG integration
+# 3.4 Integrate OpenMFT with IBM SFG \(Sterling File Gateway\)
 
-## 3.3.1 OpenMFT Install options
+## 3.4.1 OpenMFT can be natively integrated with IBM SFG.
 
-OpenMFT relies on the following components:
+These are the dependencies for OpenMFT to be installed and integrated with IBM SFG:
 
-* PostgreSQL DB as mentioned in the pre-requisites section
-* Vault that is provisioned automatically when either the all or the vault flag in the -install commands below.  
-* OpenMFT UI \(one or more nodes\)
-
+* PostgreSQL DB as mentioned in the [pre-requisites section](pre-requisites.md)
+* 
 OpenMFT integrates with IBM Sterling B2B Integrator / Sterling File Gateway and relies on the following components to work:
 
 * OpenMFT Services
