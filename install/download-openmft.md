@@ -123,20 +123,6 @@ VAULT_ADDR=http://localhost:8200
 chmod +x om
 ```
 
-## 3.2.5 Stage/Create certificates
-
-You can either re-use existing certs or create self-signed certificates
-
-* If you want to re-use your certificates, then place them under &lt;basepath&gt;/openmft/certs path
-* If you want to create self-signed certificates, you could use openssl commands to create the certificates as shown below:
-
-```text
-cd /apps/openmft/certs # Change apps to your basepath
-openssl req -x509 -newkey rsa:4096 -keyout server.key -out server.crt -days 365
-openssl rsa -in server.key -out newserver.key
-mv newserver.key server.key
-```
-
 
 
 
