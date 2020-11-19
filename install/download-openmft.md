@@ -84,16 +84,26 @@ USERNAME = openmftuser
 PASSWD = OpenMFT2020
 SSLMODE = disable
 
+[SSL_CERTIFICATE]
+create_self_signed=yes
+hosts=127.0.0.1,dev.openmft.org
+cert_file=
+key_file=
+
+[SFTPD_SERVICE]
+LISTEN_ADDRESS=127.0.0.1:50039
+
 [SFG]
+USE_SFG=false # Change to true if you have SFG
 SFG_HOME=/ibm/sfg # Example path, change this to your SFG Base path
 COMMUNITY_NAME = OPENMFT_COMM 
-SFG_API_BASE_URL = http://localhost:40074 
+SFG_API_BASE_URL = http://localhost:40074 # Change the host and port accordingly
 SFG_API_USER = api_user # api_user needs to exist in SFG with APIUSER permissions
 SFG_API_PASSWD = j6eiUroCMDe7CuqMozef # This is a sample password for the api_user
 NETMAP_NAME = OPENMFT_SFG_NETMAP
 # Below are SFG objects that will be configured during install if set to yes
-INSTALL_SFTP_ADAPTER = no
-INSTALL_CD_ADAPTER = no
+INSTALL_SFTP_ADAPTER = no # If it is a brand new SFG and you need SFTP adapter setup, set it to yes
+INSTALL_CD_ADAPTER = no # If it is a brand new SFG and you need CDSA adapter setup, set it to yes
 INSTALL_BUSINESS_PROCESS = yes
 INSTALL_SCHEDULER = yes
 INSTALL_AMFSERVICE = yes
@@ -101,6 +111,7 @@ INSTALL_AMFSERVICE = yes
 SFG_HOST=localhost
 SFTP_PORT=40039
 USECASE_HTTP_ADAPTER_PORT=40449
+SFTP_OUTBOUND_DEFAULT_KEY  = <SFG Key ID> # Use this property if you have existing key, otherwise, the installer will create one.
 
 [VAULT]
 VAULT_HOME=/apps/openmft/vault  # Change apps to your basepath

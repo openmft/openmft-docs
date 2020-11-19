@@ -6,7 +6,3 @@ description: >-
 
 # OpenMFT powered by Agile Messaging Framework \(AMF\)
 
-
-
-
-
