@@ -6,7 +6,7 @@ description: >-
 
 # OpenMFT powered by Agile Messaging Framework \(AMF\)
 
-## Here is a quick start to get OpenMFT up and running in less than 15 minutes:
+## Here is a quick start to get OpenMFT up and running in less than 30 minutes:
 
 1. [Install pre-requisites](install/pre-requisites.md)
 2. [Download, Stage software and prepare the configurations](install/download-openmft.md)
