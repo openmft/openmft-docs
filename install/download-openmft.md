@@ -49,10 +49,11 @@ Below is an example of openmft.conf.  Update the following properties per site s
 * basepath
 * Favicon, Logo and Copyright if you want to customize the branding 
 * log file settings if logs need to go a specific folder
-* DATABASE section is meant for the OpenMFT Database.  
-  * dburl -&gt; User, pwd, host, port \(default=5432\) & database values have to be updated in this format: "postgres://user:pwd@host:port/database?sslmode=disable" 
+* DATABASE section is meant for the OpenMFT Database.  The information in the template is an example, please change it to your standards.
+* SSL\_CERTIFICATE section is for you to either have the installer create a self-signed cert or for you to add existing certs.
+* SFTPD\_SERVICE section is for you to define the hostname and port that you want to listen on for SFTP.  This will be your SFTP server that will be launched along with the core OpenMFT services.
 * SFG section is where SFG\_HOME \(base\) directory and other SFG related details are configured
-* VAULT\_HOME will be created when OpenMFT is installed and address in VAULT\_ADDR may need to be changed to  your host name.
+* VAULT section has VAULT\_HOME that will be created when OpenMFT is installed and address in VAULT\_ADDR may need to be changed to  your host name if you want to login to the UI.
 
  
 
