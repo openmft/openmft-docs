@@ -1,7 +1,6 @@
 ---
 description: >-
-  AMF is the foundation on which OpenMFT is built and open sourced by Agile Data
-  Inc.
+  AMF is the foundation on which OpenMFT is built and open sourced by MFT Labs
 ---
 
 # OpenMFT powered by Agile Messaging Framework \(AMF\)
